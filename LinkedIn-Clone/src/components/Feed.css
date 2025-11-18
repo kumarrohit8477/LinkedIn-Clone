@@ -1,0 +1,53 @@
+.feed {
+  flex: 1;
+  max-width: 600px;
+}
+
+.feed-input {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.feed-input img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.feed-input input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 28px;
+  padding: 12px 16px;
+  font-size: 15px;
+  outline: none;
+}
+
+.feed-options {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.feed-options button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: gray;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.feed-options button:hover {
+  color: #0a66c2;
+}
